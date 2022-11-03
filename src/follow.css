@@ -1,0 +1,4 @@
+.follow-social ul.social-icon li:first-of-type{display: none;}
+.follow-social ul.social-icon {justify-content: end;}
+.follow-content{text-align: left;padding-right: 100px;}
+.follow-wrap .row{align-items: center;}

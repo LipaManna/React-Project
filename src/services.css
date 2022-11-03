@@ -1,0 +1,9 @@
+.service-item .service-name{justify-content: space-between;align-items: center;}
+.service-item{padding: 50px 40px;    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: all 0.3s;background-color: #ffffff;border-radius:40px;display: flex;justify-content: space-between;height: 100%;}
+.service-item .service-name{width: calc(100% - 80px);}
+.service-item .service-name p{margin-bottom: 0;font-size: 27px;color: #ea2396;}
+.service-item span{font-size: 27px;color: #0196e3;line-height: 27px;width: 80px;}
+.service-item .d-flex{align-items: center;}
+.service-wrap div.col-lg-6{margin-bottom: 25px;}
+.service-item a{font-size: 30px;}

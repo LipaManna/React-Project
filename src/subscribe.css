@@ -1,0 +1,6 @@
+.subscribe-wrap{    border-radius: 3rem;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;margin: 120px auto 120px auto;}
+.subscribe-wrap .d-flex{justify-content: space-between;align-items: center;}
+.subscribe-wrap .left-col{text-align: start;}
+.subscribe-wrap h2{font-weight:400;color: #36187d;}
+.subscribe-wrap {padding: 50px 150px;}

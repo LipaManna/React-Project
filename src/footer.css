@@ -1,0 +1,7 @@
+.footer-menu ul{list-style: none;display: flex;max-width: 400px;margin-left: auto;justify-content: space-between;}
+.footer-menu ul li a{color: #6c758f;}
+.footer-menu .ftr-top{border-bottom: 1px solid #aaa;}
+.footer-menu  .ftr-btm .ftr-social ul li:first-of-type{display: none;}
+.footer-menu  .ftr-btm .d-flex{align-items: center;justify-content: space-between;}
+.footer-menu  .ftr-btm ul li a{background-color: transparent;box-shadow: none;color: #6c758f;font-size: 20px;padding: 0;width: auto;}
+.footer-menu  .ftr-btm p{font-size: 16px;}

@@ -1,0 +1,3 @@
+.video-holder video{border-radius: 30px;width: 100%;}
+.video-holder{position: relative;}
+.video-holder .play-icon{position: absolute;top: 50%;left: 0;right: 0;font-size: 40px;color: #fff;z-index: 99;}

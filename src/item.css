@@ -1,0 +1,7 @@
+.item-wrap .icon img{width: 45px;height: auto;object-fit: cover;}
+a.item-wrap .icon{ background-color: #fff;box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;height:90px;width:90px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 10px;}
+a.item-wrap{justify-content: center;text-decoration: none;font-size: 22px;color: #282c34;}
+a.item-wrap .link{padding-left: 25px;max-width: 100px;text-align: left;transition: 0.2s ease-in;line-height: 27px;}
+a.item-wrap .link:hover{color: dodgerblue;}
+.feature-wrap .mt-8{margin-top: 80px;}

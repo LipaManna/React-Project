@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body,p{color: #6c758f;font-size: 20px;}
+h2{font-size: 50px !important;margin-bottom: 25px !important;}
+h3{font-size: 35px !important;}
+h4{font-size: 28px !important;}
+
+.btn-blue-custom{background-color: #3c04be; color: #fff;border: 1px solid transparent;}
+.btn-blue-custom:hover{background-color: transparent;color: #fff;border: 1px solid #fff;}
+.btn-white-custom{background-color: #fff; color: #282c34;}
+.btn-pink-custom{background-color: #c7137b;color: #fff;}
+.btn-pink-custom:hover{color: #c7137b;background-color: transparent;border: 1px solid #c7137b;}
+.sky-custom{background-color: #35b8fc;color: #fff;}
+.btn-custom{padding: 20px 47px;border-radius: 50px;font-size: 20px;text-decoration: none;transition: 0.2s ease-in;}
+
+.common-pad{padding: 60px 0;}
+.banner-content h1{font-size: 80px;}
+.banner-content p{font-size: 25px;max-width: 900px;margin: 0 auto 30px auto;color: #fff;}
+
+.header-row{padding:30px 0 ;background-color: #f2f3f7;}
+.header-row .container{justify-content: space-between;}
+.header-row .custom-navbar ul{display: flex;align-items: center;}
+.header-row .custom-navbar ul li{list-style: none;}
+.header-row .custom-navbar .nav-items ul li:not(:last-child),ul.social-icon li:not(:last-child){margin-right: 25px;}
+.header-row .custom-navbar ul li a{font-size: 20px;text-decoration: none;}
+.header-row .custom-navbar .nav-items ul li a{color: #6c758f;}
+ul.social-icon{list-style: none;display: flex;}
+ ul.social-icon li:first-child a{color: #6c758f;}
+ ul.social-icon li:not(:first-child) a{color: #0196e3;font-size: 30px;box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff; border-radius: 50%; transition: all 0.3s;width: 60px;height: 60px;background-color: #fff;display: flex;align-items: center;justify-content: center;}
+ ul.social-iconli:not(:first-child) a:hover{background: #f8f9fb;}
+.banner-content{padding: 290px 0;position: relative;z-index: 9;color: #fff;}
+.banner-content:after{position: absolute;top: 0;left: 0;bottom: 0;right: 0;content: '';background-color: rgba(1, 150, 227,0.7);z-index: -1;}
+.banner-content .btn-custom:first-child{margin-right: 10px;}
+.banner-content .btn-custom:last-child{margin-left: 10px;}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

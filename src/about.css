@@ -1,0 +1,5 @@
+.about-wrap{text-align: left;}
+.about-wrap .about-left{max-width: 550px;}
+.about-item  .about-icon-text{padding-left: 30px;}
+.about-item .abouticon .svg-inline--fa{background-color: #fff;width: 40px;height: 40px;border-radius: 50%;box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;;display: flex;align-items: center;justify-content: center;padding: 25px;color: #0196e3;}
+.about-right-item:not(:last-child){margin-bottom: 20px;}
